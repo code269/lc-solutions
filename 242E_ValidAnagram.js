@@ -1,3 +1,15 @@
+/**
+ * @param {string} s
+ * @param {string} t
+ * @return {boolean}
+ */
+
+//Test cases: 
+//"","" = true
+//"cat", "rat" = false
+//"ca", "rat" = false
+//"anagram", "nagaram" = true
+
 var isAnagram = function(s, t) {
     let countFirst = {};
     let countSecond = {};
@@ -35,3 +47,6 @@ var isAnagram = function(s, t) {
     }
     return true;
 };
+
+//O(n) S&T
+//Frequency Count approach
