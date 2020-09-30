@@ -36,5 +36,6 @@ var isAnagram = function(s, t) {
     return true;
 };
 
-//O(n) S&T - Slightly better than previous solution, uses less space
+//O(n)T / O(1)S - Slightly better than previous solution, uses less space
 //Frequency Count approach
+//Constant space because hashtable keys can only be a-z (26)
