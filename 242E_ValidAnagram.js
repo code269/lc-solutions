@@ -48,5 +48,6 @@ var isAnagram = function(s, t) {
     return true;
 };
 
-//O(n) S&T
+//O(n)T | O(1)S
 //Frequency Count approach
+//Constant space because hashtable keys can only be a-z (26)
