@@ -1,4 +1,4 @@
-# lc-solutions (Easys)
+# lc-solutions
 
 My LeetCode solutions to help me study & keep track of what questions I have done previously.
 
