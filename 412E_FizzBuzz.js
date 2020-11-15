@@ -2,6 +2,9 @@
  * @param {number} n
  * @return {string[]}
  */
+
+//O(n) T || O(n) S
+
 var fizzBuzz = function(n) {
     let returnThis = [];
     //Linear search
